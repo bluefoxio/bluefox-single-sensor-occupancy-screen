@@ -4,9 +4,7 @@
 
 1. Fetch API access must be enabled for your account and sensor through the BlueFox Cloud Platform Dashboard
 
-https://apollo-psq.bluefoxengage.com/login (Americas)
-
-https://artemis-psq.bluefoxengage.com/login (Europe & Asia)
+https://apollo-psq.bluefoxengage.com/login 
 
 2. Add the provided access and secret authentication tokens for your sensor to the sensor object in main.js, Line 8.
 
