@@ -12,7 +12,7 @@ let sensor = {
   max_count: 1, 
 };
 
-// Sets the update interval for retrieval of realtime count data. Our cloud platform collects count data every 20 seconds from active sensors.
+// Sets the update interval for retrieval of realtime count data. The real-time API returns the momentary visitor count at the beginning of the current minute, therefore, the minimum value should be 1 minute.
 let updateInterval = 60000; // In milliseconds. Default: 1 minute
 
 //  On load function.
